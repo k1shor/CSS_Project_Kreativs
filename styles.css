@@ -1,0 +1,28 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;    
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    padding: 1em 3em;
+}
+nav{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+nav li{
+    list-style: none;
+    padding: 0 1em;
+}
+nav li:last-child{
+    flex-grow: 6;
+    text-align: right;
+}
