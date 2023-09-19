@@ -12,17 +12,77 @@ html{
 /* HEADER */
 header{
     width: 100%;
-    padding: 1em 3em;
 }
 nav{
+    margin: auto;
+    padding: 1em 5em;
+    background-color: #19211e;
+    color: white;
     display: flex;
     /* justify-content: space-evenly; */
+    align-items: center;
 }
 nav li{
     list-style: none;
     padding: 0 1em;
 }
-nav li:last-child{
-    flex-grow: 6;
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+nav:first-child li:last-child{
+    flex-grow: 3;
     text-align: right;
+}
+
+nav:last-child{
+    background-color: #030303;
+    padding: 2.5em 5em;
+
+    /* justify-content: center; */
+
+}
+nav ul{
+    display: flex;
+}
+nav h1{
+    flex: 1;
+    font-size: 2rem;
+}
+nav ul{
+    flex: 2;
+}
+nav .search-bar{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 3em;
+    /* overflow: hidden; */
+}
+
+.search-bar input{
+    outline: none;
+    padding: 0 1em;
+    height: 100%;
+    background-color: #19211e;
+    color: white;
+    border: 2px solid #474d4b;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+}
+.search-bar button{
+    /* outline: none; */
+    background-color: #ff4c4c;
+    border: 2px solid #474d4b;
+
+    color: white;
+    border: none;
+    padding: 0 1em ;
+    height: 100%;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+nav .mode-icon{
+    flex: 0.2;
+    /* background-color: white; */
 }
