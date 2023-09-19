@@ -1,0 +1,41 @@
+
+
+.index-main-content {
+
+> h3.title-style {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+}
+
+> h3.title-style span {
+    font-weight: 100;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 500px
+}
+
+.flex-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.music-image-solid {
+    transition: transform 0.3s ease-in-out;
+    height: 80px;
+    width: auto;
+}
+
+.music-image-solid:hover {
+    transform: scale(1.1);
+}
+
+}
