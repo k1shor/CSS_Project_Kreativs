@@ -1,58 +1,72 @@
-html{
-    font-family: 'Roboto Condensed', sans-serif;    
+html {
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     letter-spacing: 3px;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* HEADER */
-header{
-    width: 100%;
-}
-nav{
+
+nav {
     margin: auto;
     padding: 1em 5em;
     background-color: #19211e;
     color: white;
     display: flex;
+    gap: 3em;
     /* justify-content: space-evenly; */
     align-items: center;
+    position: sticky;
+    top: 0;
+
 }
-nav li{
+
+nav li {
     list-style: none;
-    padding: 0 1em;
+    /* padding: 0 1em; */
 }
-nav li a{
+
+nav li a {
     color: white;
     text-decoration: none;
 }
-nav:first-child li:last-child{
-    flex-grow: 3;
+
+nav:first-child li:last-child {
     text-align: right;
+    flex-grow: 6;
 }
 
-nav:last-child{
+.sticky-nav {
     background-color: #030303;
+    margin: auto;
     padding: 2.5em 5em;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     /* justify-content: center; */
 
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav h1{
+
+nav h1 {
     flex: 1;
     font-size: 2rem;
 }
-nav ul{
+
+nav ul {
     flex: 2;
 }
-nav .search-bar{
+
+nav .search-bar {
     flex: 1;
     display: flex;
     align-items: center;
@@ -60,7 +74,7 @@ nav .search-bar{
     /* overflow: hidden; */
 }
 
-.search-bar input{
+.search-bar input {
     outline: none;
     padding: 0 1em;
     height: 100%;
@@ -70,19 +84,74 @@ nav .search-bar{
     border-top-left-radius: 5em;
     border-bottom-left-radius: 5em;
 }
-.search-bar button{
+
+.search-bar button {
     /* outline: none; */
     background-color: #ff4c4c;
     border: 2px solid #474d4b;
 
     color: white;
     border: none;
-    padding: 0 1em ;
+    padding: 0 1em;
     height: 100%;
     border-top-right-radius: 5em;
     border-bottom-right-radius: 5em;
 }
-nav .mode-icon{
-    flex: 0.2;
-    /* background-color: white; */
+
+
+
+.menu-icon {
+    padding: 1em;
+    background-color: #ff4c4c;
+    border-radius: 2em;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1160px) {
+    .sticky-nav {
+        padding: 2.5em 20vw;
+
+    }
+
+    nav ul,
+    nav .search-bar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    nav li:first-child {
+        display: none;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 680px) {
+    nav:first-child {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    
+
+    nav li {
+        padding: 0;
+    }
+
+    nav:first-child li:last-child {
+        width: 100%;
+        text-align: center;
+    }
+
 }
