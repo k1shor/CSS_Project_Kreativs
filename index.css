@@ -1,6 +1,7 @@
 
 
 .index-main-content {
+    font-family: 'Roboto', sans-serif;
 
 > h3.title-style {
     font-size: 48px;
@@ -36,6 +37,72 @@
 
 .music-image-solid:hover {
     transform: scale(1.1);
+}
+
+.quote-container {
+    padding: 35px 370px;
+    border: none;
+    text-align: center;
+}
+
+.quote-container-child {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 90px 200px;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
+.quote-cite {
+    text-align: right;
+    font-weight: bold;
+}
+
+.sign-up-container {
+    padding: 35px 480px;
+    align-items: center;
+}
+
+.sign-up-child-container {
+    background-color: #2183ec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    width: 890px;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    background-color: #2183ec;
+    color: white;
+    font-size: 11px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.sign-up-title{
+    color: white;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.sign-up-text {
+    color: white;
+    letter-spacing: 0px;
+    font-size: 15px;
+    margin-right: 50px;
 }
 
 }
