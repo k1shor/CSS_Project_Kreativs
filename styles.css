@@ -13,23 +13,15 @@ html {
 /* LOGIN PAGE */
 
 .background-image {
-    z-index: -2;
+    z-index: -1;
     position: absolute;
-    height: 100rem;
-    width: auto;
+    height: 100vh;
+    width: 1200px;
     display: flex;
 }
 
 .background-image img {
-    max-width: 1600px;
-}
-
-.blurred {
-    z-index: -1;
-    position: absolute;
-    background-color: #00416A;
-    opacity: 5;
-    height: 100rem;
+    max-width: 100%;
 }
 
 .container {
@@ -39,6 +31,7 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 500px;
+    margin: 25px auto;
 }
 
 .container h2 {
@@ -266,13 +259,18 @@ nav ul {
 
 /* footer */
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     /* height: 10%; */
     background-color: #1f2937;
     color: white;
     text-align: center;
 padding: 1.5em;
+=======
+    min-height: 100px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+>>>>>>> af60ead2511005875b3573333fc2888c1acb34f2
 }
