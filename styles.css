@@ -21,15 +21,7 @@ html {
 }
 
 .background-image img {
-    max-width: 1600px;
-}
-
-.blurred {
-    z-index: -1;
-    position: absolute;
-    background-color: #00416A;
-    opacity: 5;
-    height: 100rem;
+    max-width: 100%;
 }
 
 .container {
@@ -39,6 +31,7 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 500px;
+    margin: 25px auto;
 }
 
 .container h2 {
