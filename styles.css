@@ -10,6 +10,73 @@ html {
     box-sizing: border-box;
 }
 
+/* LOGIN PAGE */
+
+.background-image {
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 1200px;
+    display: flex;
+}
+
+.background-image img {
+    max-width: 100%;
+}
+
+.container {
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin: 25px auto;
+}
+
+.container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* LOGIN PAGE STYLES END HERE */
+
 /* HEADER */
 
 nav {
@@ -75,12 +142,16 @@ nav ul {
     display: flex;
     align-items: center;
     height: 3em;
+    width: 75%;
+    margin: auto;
 }
 
 .search-bar input {
     outline: none;
     padding: 0 1em;
     height: 100%;
+    width: 100%;
+    margin: auto;
     background-color: #19211e;
     color: #E5E7EB;
     border: 2px solid #474d4b;
@@ -188,8 +259,10 @@ nav ul {
 
 /* footer */
 footer{
-    padding: 2em 0;
-    text-align: center;
+    width: 100%;
+    min-height: 100px;
     background-color: #1f2937;
-    color: #F9FAF8;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
