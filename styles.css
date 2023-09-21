@@ -15,8 +15,8 @@ html {
 .background-image {
     z-index: -2;
     position: absolute;
-    height: 100rem;
-    width: auto;
+    height: 100vh;
+    width: 1200px;
     display: flex;
 }
 
