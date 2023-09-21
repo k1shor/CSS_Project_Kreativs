@@ -36,6 +36,7 @@
     border-radius: 10px;
     border-color: #3E4140;
     padding: 10px;
+    color: white;
 }
 
 .textarea-container {
@@ -48,6 +49,7 @@
     border-color: #3E4140;
     padding: 10px;
     resize: none;
+    color: white;
 }
 
 .button-style {
