@@ -75,12 +75,16 @@ nav ul {
     display: flex;
     align-items: center;
     height: 3em;
+    width: 75%;
+    margin: auto;
 }
 
 .search-bar input {
     outline: none;
     padding: 0 1em;
     height: 100%;
+    width: 100%;
+    margin: auto;
     background-color: #19211e;
     color: #E5E7EB;
     border: 2px solid #474d4b;
