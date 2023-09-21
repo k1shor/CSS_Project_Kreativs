@@ -10,6 +10,80 @@ html {
     box-sizing: border-box;
 }
 
+/* LOGIN PAGE */
+
+.background-image {
+    z-index: -2;
+    position: absolute;
+    height: 100rem;
+    width: auto;
+    display: flex;
+}
+
+.background-image img {
+    max-width: 1600px;
+}
+
+.blurred {
+    z-index: -1;
+    position: absolute;
+    background-color: #00416A;
+    opacity: 5;
+    height: 100rem;
+}
+
+.container {
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* LOGIN PAGE STYLES END HERE */
+
 /* HEADER */
 
 nav {
