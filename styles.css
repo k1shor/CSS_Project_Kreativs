@@ -149,12 +149,16 @@ nav ul {
     display: flex;
     align-items: center;
     height: 3em;
+    width: 75%;
+    margin: auto;
 }
 
 .search-bar input {
     outline: none;
     padding: 0 1em;
     height: 100%;
+    width: 100%;
+    margin: auto;
     background-color: #19211e;
     color: #E5E7EB;
     border: 2px solid #474d4b;
@@ -262,8 +266,13 @@ nav ul {
 
 /* footer */
 footer{
-    padding: 2em 0;
-    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
     background-color: #1f2937;
-    color: #F9FAF8;
+    color: white;
+    text-align: center;
+
 }
