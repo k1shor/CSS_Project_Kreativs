@@ -120,13 +120,3 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-
-.map-frame {
-    margin-bottom: 5%;
-}
-
-@media only screen and (max-width: 768px) {
-    .map-frame {
-        margin-bottom: 15%;
-    }
-}
