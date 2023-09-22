@@ -1,30 +1,15 @@
-.flex-container {
+.contact-main-content {
+    background-color: #030303;
+    padding: 5em;
     display: flex;
-    justify-content: center;
-    background-color: #19211E;
 }
 
-.title-style {
+.contact-main {
+    width: 50%;
+    padding: 1.5em;
+    display: flex;
     text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    color: #1F2937;
-    background-color: #18201D;
-    color: white;
-    padding-top: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.title-style span {
-    font-weight: 100;
-}
-
-.form-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    max-width: 500px;
-    justify-content: center;
+    margin-right: auto;
 }
 
 .input-container {
@@ -32,11 +17,12 @@
     height: 40px;
     margin: 10px;
     font-family: 'Roboto', 'sans-serif';
-    background-color: #0E1210;
+    background-color: #19211E;
     border-radius: 10px;
     border-color: #3E4140;
     padding: 10px;
     color: white;
+    font-size: 18px;
 }
 
 .textarea-container {
@@ -44,12 +30,13 @@
     height: 150px;
     margin: 10px;
     font-family: 'Roboto', 'sans-serif';
-    background-color: #0E1210;
+    background-color: #19211E;
     border-radius: 10px;
     border-color: #3E4140;
     padding: 10px;
     resize: none;
     color: white;
+    font-size: 18px;
 }
 
 .button-style {
@@ -62,27 +49,33 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+.contact-sidebar {
+    padding: 1.5em;
+    width: 35%;
+}
+
 .container-right {
     border: solid 1px;
     margin: 10px;
     border-radius: 20px;
-    background-color: #0E1210;
+    background-color: #19211E;
     padding: 10px;
 }
 
 .contact-container {
-    padding: 10px;
-    
+    padding: 20px;
 }
 
 .contact-title {
     color: white;
+    font-size: 36px;
 }
 
 .contact-text {
     color: white;
     text-decoration: none;
     letter-spacing: 0px;
+    font-size: 18px;
 }
 
 .contact-hero {
@@ -95,6 +88,7 @@
 .contact-hero img {
     position: absolute;
     width: 100%;
+    height: 100%;
     opacity: 0.6;
     z-index: 2;
     filter: sepia(2);
@@ -119,4 +113,14 @@
 .title h3{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+@media screen and (max-width:992px){
+    .contact-main-content{
+        flex-direction: column;
+        padding: 1em;
+    }
+    .contact-sidebar, .contact-main{
+        width: 100%;
+    }
 }

@@ -260,17 +260,9 @@ nav ul {
 /* footer */
 footer{
     width: 100%;
-<<<<<<< HEAD
-    /* height: 10%; */
-    background-color: #1f2937;
-    color: white;
-    text-align: center;
-padding: 1.5em;
-=======
     min-height: 100px;
     background-color: #1f2937;
     color: white;
     text-align: center;
     padding: 20px;
->>>>>>> af60ead2511005875b3573333fc2888c1acb34f2
 }
