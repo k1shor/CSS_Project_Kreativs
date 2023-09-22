@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>layout</title>
+    <title>Musical contacts</title>
 
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./contact.css">
@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -22,7 +23,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body style="background-color: #18201D;">
+<body style="background-color: #030303;">
     <!-- header section start -->
     <nav>
         <li>
@@ -31,13 +32,13 @@
         <li>
             <span>
                 <i class="fa fa-phone"></i>
-                <a href="">+1(21) 234 4567</a>
+                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
             </span>
         </li>
         <li>
             <span>
                 <i class="fa fa-envelope"></i>
-                <a href>info@example.com</a>
+                <a href="mailto:info@support.com">info@example.com</a>
             </span>
         </li>
         <li class="icons-div">
@@ -53,7 +54,6 @@
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About Us</a></li>
-            <li><a href="./classes.html">Classes</a></li>
             <li><a href="./blogs.html">Blog</a></li>
             <!-- <li><a href="./pages.html">Pages</a></li> -->
             <li><a href="./contact.html" class="active">Contact</a></li>
@@ -63,7 +63,8 @@
             <button><i class="fa fa-search"></i></i></button>
         </div>
         <span class="mode-icon">
-            <i class="fa fa-sun"></i>
+            <a href="./login.html" style="margin-right: 10px;">Sign in</a>
+            <a href="./signup.html">Sign up</a>
         </span>
         <span class="menu-icon">
             <i class="fa fa-list"></i>
@@ -71,7 +72,6 @@
                 <li></li>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
-                <li><a href="./classes.html">Classes</a></li>
                 <li><a href="./blogs.html">Blog</a></li>
                 <!-- <li><a href="./pages.html">Pages</a></li> -->
                 <li><a href="./contact.html" class="active">Contact</a></li>
@@ -88,27 +88,25 @@
     <!-- header section end -->
 
     <!-- main section start -->
-    <div style="height: auto;"></div>
-        <div class="contact-hero">
-            <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
-            <div class="title">
-                <h1>Contact</h1>
-                <h3>Home > Contact</h3>
-            </div>
+    <div class="contact-hero">
+        <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
+        <div class="title">
+            <h1>Contact</h1>
+            <h3>Home > Contact</h3>
         </div>
-        
-        <div class="contact-main-content">
-            <h3 class="title-style text-center">
-                Contact <span>Us</span> 
-            </h3>
-            <div class="flex-container">
-                <form class="form-container">
+    </div>
+
+    <div class="contact-main-content">
+            <div class="contact-main">
+                <form>
                     <input class="input-container" type="text" placeholder="Your Name" required>
                     <input class="input-container" type="email" placeholder="Your Email" required>
                     <input class="input-container" type="text" placeholder="Subject" required>
                     <textarea class="textarea-container" placeholder="Type your message here"></textarea>
                     <button class="button-style" type="submit">Send message</button>
                 </form>
+            </div>
+            <div class="contact-sidebar">
                 <div class="container-right">
                     <div class="contact-container">
                         <h2 class="contact-title">Company address</h2>
@@ -128,16 +126,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <iframe 
-            src="https://shorturl.at/hoFS0"
-            width="100%" 
-            height="450" 
-            class="map-frame" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+    </div>
+    <iframe
+        src="https://shorturl.at/hoFS0"
+        width="100%" 
+        height="450" 
+        class="map-frame" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     <!-- main section end -->
 
     <!-- footer section start -->
