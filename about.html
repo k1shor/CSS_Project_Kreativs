@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musical about us</title>
+    <title>layout</title>
 
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./about.css">
@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -31,13 +30,13 @@
         <li>
             <span>
                 <i class="fa fa-phone"></i>
-                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+                <a href="">+1(21) 234 4567</a>
             </span>
         </li>
         <li>
             <span>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:info@support.com">info@example.com</a>
+                <a href>info@example.com</a>
             </span>
         </li>
         <li class="icons-div">
@@ -49,10 +48,11 @@
     </nav>
 
     <nav class="sticky-nav">
-        <a href="./index.html"><h1>Musical</h1></a>
+        <a href="/"><h1>Musical</h1></a>
         <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="./about.html" class="active">About Us</a></li>
+            <li><a href="./classes.html">Classes</a></li>
             <li><a href="./blogs.html">Blog</a></li>
             <!-- <li><a href="./pages.html">Pages</a></li> -->
             <li><a href="./contact.html">Contact</a></li>
@@ -62,15 +62,15 @@
             <button><i class="fa fa-search"></i></i></button>
         </div>
         <span class="mode-icon">
-            <a href="./login.html" style="margin-right: 10px;" class="fa-solid fa-user"></a>
-            <a href="./signup.html" class="fa-solid fa-user-plus"></a>
+            <i class="fa fa-sun"></i>
         </span>
         <span class="menu-icon">
             <i class="fa fa-list"></i>
             <ul class="hidden-menu">
                 <li></li>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="./about.html" class="active">About Us</a></li>
+                <li><a href="./classes.html">Classes</a></li>
                 <li><a href="./blogs.html">Blog</a></li>
                 <!-- <li><a href="./pages.html">Pages</a></li> -->
                 <li><a href="./contact.html">Contact</a></li>
@@ -87,12 +87,55 @@
     <!-- header section end -->
 
     <!-- main section start -->
-    <div class="test" style="height: 2000px;"></div>
+
+    <div class="contact-hero">
+        <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
+        <div class="title">
+            <h1>About us</h1>
+            <h3>Home > About us</h3>
+        </div>
+    </div>
+    <section>
+        <div class="container-about">
+            <div class="items">
+                <div class="welcome">
+                    <h3>Welcome to Musical</h3>
+                    <p>Welcome to Musical, where the harmonious world of music 
+                        unfolds before your very ears. We are a passionate 
+                        community of musicians, educators, and enthusiasts dedicated to 
+                        nurturing the musical talent within you. Our mission is 
+                        simple yet profound: to inspire, educate, and empower individuals on 
+                        their musical journey.
+                     </p><br>
+                     <button class="know-more">Know more about us</button>
+                </div>
+
+                <div class="image-container">
+                    <div class="image-music">
+                        <img src="./assets/images/photo-1598387846419-a2c870ad3ecd.avif" alt="musicians">
+                    </div>
+                </div>
+            </div>
+            <div class="sign-up-container">
+                <div class="sign-up-child-container center-75">
+                    <div class="sign-up-flex-container center-75">    
+                        <div class="sign-up-left-container">
+                            <h4 class="sign-up-title">Call to action! It's time!</h3>
+                            <p class="sign-up-content">Sign up for our product by clicking that button right over there!</p>
+                        </div>
+                        <div class="sign-up-right-container">
+                            <a href="./signup.html"><button class="sign-up-button">Sign up</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- main section end -->
 
     <!-- footer section start -->
     <footer>
-        Copyright &copy; The Kreativs 2023
+       <p>Copyright &copy; The Kreativs 2023</p>
     </footer>
     <!-- footer section end -->
 
