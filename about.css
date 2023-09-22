@@ -24,6 +24,11 @@
     position: relative;
 }
 
+.container-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .title h1{
     font-size: 48px;
     color: #F9FAF8;
@@ -52,8 +57,15 @@
     background-color: #E5E7EB;
 }
 
-.image-container {
-    width: auto;
+.welcome {
+    width: 50%;
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    margin-bottom: 15px;
 }
 
 .know-more{
