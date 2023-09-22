@@ -52,6 +52,10 @@
     background-color: #E5E7EB;
 }
 
+.image-container {
+    width: auto;
+}
+
 .know-more{
     background-color: #3882F6;
     color: white;
@@ -150,5 +154,11 @@ button:hover{
         justify-content: center;
         align-items: center;
         padding-left: 5px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .contact-hero img {
+        height: 100%;
     }
 }
