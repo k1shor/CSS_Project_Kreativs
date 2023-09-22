@@ -96,14 +96,6 @@
         justify-content: center;
     }
 
-    .sign-up-left-container {
-
-    }
-
-    .sign-up-right-container {
-
-    }
-
     .sign-up-button {
         background-color: #3882F6;
         color: white;
@@ -151,6 +143,10 @@
             font-size: 12px;
         }
 
+        .quote-container-child {
+            width: 80%;
+        }
+
         .quote-content {
             font-size: 16px;
         }
@@ -161,7 +157,7 @@
 
         .sign-up-child-container {
             flex-direction: column;
-            padding: 18px;
+            padding: 18px 0px;
         }
 
         .sign-up-title {
@@ -175,14 +171,25 @@
             font-size: 12px;
         }
 
+        .sign-up-left-container {
+            padding-right: 5px;
+        }
+    
+        .sign-up-right-container {
+            padding-left: 5px;
+        }
+    
+
         .sign-up-button {
-            margin: 0px;
+            width: 80px;
+            margin: auto;
         }
 
         .sign-up-right-container {
             display: flex;
             justify-content: center;
-            padding-top: 10px;
+            align-items: center;
+            padding-left: 5px;
         }
     }
 
@@ -194,6 +201,14 @@
         .flex-container {
             max-width: 256px;
             margin: auto;
+        }
+
+        .quote-container-child {
+            width: 80%;
+        }
+
+        .sign-up-content {
+            display: none;
         }
 
     }
