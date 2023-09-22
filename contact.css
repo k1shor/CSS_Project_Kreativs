@@ -16,7 +16,7 @@
     width: 100%;
     height: 40px;
     margin: 10px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     background-color: #19211E;
     border-radius: 10px;
     border-color: #3E4140;
@@ -29,7 +29,7 @@
     width: 100%;
     height: 150px;
     margin: 10px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     background-color: #19211E;
     border-radius: 10px;
     border-color: #3E4140;
@@ -88,7 +88,6 @@
 .contact-hero img {
     position: absolute;
     width: 100%;
-    height: 100%;
     opacity: 0.6;
     z-index: 2;
     filter: sepia(2);
@@ -122,5 +121,9 @@
     }
     .contact-sidebar, .contact-main{
         width: 100%;
+        text-align: center;
+    }
+    .contact-hero img {
+        height: 100%;
     }
 }
