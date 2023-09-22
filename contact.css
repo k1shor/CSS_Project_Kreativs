@@ -121,6 +121,7 @@
     }
     .contact-sidebar, .contact-main{
         width: 100%;
+        text-align: center;
     }
     .contact-hero img {
         height: 100%;
