@@ -26,13 +26,19 @@
     .flex-item {
         flex: 1;
         padding: 2%;
+        max-width: 210px;
         text-align: center;
     }
 
     .music-image-solid {
         transition: transform 0.3s ease-in-out;
-        height: 80px;
+        height: 120px;
         width: auto;
+    }
+
+    .flex-content {
+        max-width: 120px;
+        margin: auto;
     }
 
     .music-image-solid:hover {
@@ -43,6 +49,7 @@
         border: none;
         text-align: center;
         padding: 2%;
+        background-color: #E5E7EB;
     }
 
     .quote-container-child {
@@ -50,7 +57,6 @@
         flex-direction: column;
         width: 100%;
         margin: auto;
-        background-color: #E5E7EB;
     }
 
     .quote-content {
@@ -70,7 +76,7 @@
 
     .sign-up-container {
         align-items: center;
-        padding: 2%;
+        padding: 2% 0%;
     }
 
     .sign-up-child-container {
@@ -79,7 +85,7 @@
         flex-direction: row;
         justify-content: center;
         padding: 30px;
-        width: 100%;
+        max-width: 75%;
         margin: auto;
         border-radius: 5px;
     }
