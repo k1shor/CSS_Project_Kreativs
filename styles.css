@@ -257,6 +257,12 @@ nav ul {
 
 }
 
+@media screen and (max-width:992px){
+    .fa-solid {
+        margin: 5px;
+    }
+}  
+
 /* footer */
 footer{
     width: 100%;
