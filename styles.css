@@ -159,10 +159,11 @@ nav ul {
 }
 
 
+
 @media screen and (max-width: 1160px) {
     .sticky-nav {
-        padding: 2.5em 20vw;
-
+        padding: 2.5em;
+        justify-content: space-evenly;
     }
 
     nav ul,
@@ -172,6 +173,10 @@ nav ul {
 
     .menu-icon {
         display: block;
+    }
+
+    nav a{
+        font-size: 14px;
     }
 
 }
