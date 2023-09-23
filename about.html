@@ -5,15 +5,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>layout</title>
+    <title>Musical contacts</title>
 
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./about.css">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -48,9 +50,9 @@
     </nav>
 
     <nav class="sticky-nav">
-        <a href="/"><h1>Musical</h1></a>
+        <a href="./index.html"><h1>Musical</h1></a>
         <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html" class="active">About Us</a></li>
             <li><a href="./blogs.html">Blog</a></li>
             <!-- <li><a href="./pages.html">Pages</a></li> -->
@@ -68,11 +70,11 @@
             <i class="fa fa-list"></i>
             <ul class="hidden-menu">
                 <li></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="./about.html" class="active">About Us</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
                 <li><a href="./blogs.html">Blog</a></li>
                 <!-- <li><a href="./pages.html">Pages</a></li> -->
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
                 <li>
                     <div class="search-bar">
                         <input type="search">
@@ -86,18 +88,17 @@
     <!-- header section end -->
 
     <!-- main section start -->
-
     <div class="contact-hero">
         <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
         <div class="title">
-            <h1>About us</h1>
-            <h3>Home > About us</h3>
+            <h1>About</h1>
+            <h3>Home > About</h3>
         </div>
     </div>
-    <section class="container-about">
-        <div>
-            <div class="items">
-                <div class="welcome">
+
+    <div class="contact-main-content">
+            <div class="contact-main">
+                <div>
                     <h3 class="text">Welcome to Musical</h3>
                     <p class="text">Welcome to Musical, where the harmonious world of music 
                         unfolds before your very ears. We are a passionate 
@@ -108,30 +109,27 @@
                      </p><br>
                      <button class="know-more">Know more about us</button>
                 </div>
-                <div class="image-container">
-                    <img src="./assets/images/about-us-image.png" alt="musicians">
-                </div>
             </div>
-            <div class="sign-up-container">
-                <div class="sign-up-child-container center-75">
-                    <div class="sign-up-flex-container center-75">    
-                        <div class="sign-up-left-container">
-                            <h4 class="sign-up-title">Call to action! It's time!</h3>
-                            <p class="sign-up-content">Sign up for our product by clicking that button right over there!</p>
-                        </div>
-                        <div class="sign-up-right-container">
-                            <a href="./signup.html"><button class="sign-up-button">Sign up</button></a>
-                        </div>
-                    </div>
+                <img src="./assets/images/about-us-image.png" alt="musicians" class="musician-image">
+    </div>
+    <div class="sign-up-container">
+        <div class="sign-up-child-container center-75">
+            <div class="sign-up-flex-container center-75">    
+                <div class="sign-up-left-container">
+                    <h4 class="sign-up-title">Call to action! It's time!</h3>
+                    <p class="sign-up-content">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="sign-up-right-container">
+                    <a href="./signup.html"><button class="sign-up-button">Sign up</button></a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- main section end -->
 
     <!-- footer section start -->
     <footer>
-       <p>Copyright &copy; The Kreativs 2023</p>
+        Copyright &copy; The Kreativs 2023
     </footer>
     <!-- footer section end -->
 
