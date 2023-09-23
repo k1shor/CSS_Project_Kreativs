@@ -1,17 +1,19 @@
-.blogs-hero{
+.blogs-hero {
     height: 50vh;
     background-color: #1F2937;
     position: relative;
     overflow: hidden;
 }
-.blogs-hero img{
+
+.blogs-hero img {
     position: absolute;
     width: 100%;
     opacity: 0.6;
     z-index: 2;
     filter: sepia(2);
 }
-.title{
+
+.title {
     height: 100%;
     width: 100%;
     display: flex;
@@ -21,32 +23,36 @@
     z-index: 3;
     position: relative;
 }
-.title h1{
+
+.title h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
 }
-.title h3{
+
+.title h3 {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.blog-content{
+.blog-content {
     background-color: #030303;
     padding: 5em;
     display: flex;
 }
-.blog-main{
+
+.blog-main {
     width: 65%;
     padding: 1.5em;
 }
 
-.blog-sidebar{
+.blog-sidebar {
     width: 35%;
     padding: 1.5em;
 
 }
-.blog{
+
+.blog {
     background-color: #1F2937;
     border: 1px solid #E5E7EB;
     border-radius: 1em;
@@ -54,59 +60,72 @@
     color: #F9FAF8;
     margin-bottom: 5em;
 }
-.blog-img{
+
+.blog-img {
     overflow: hidden;
     width: 100%;
     cursor: pointer;
 }
-.blog-img img{
+
+.blog-img img {
     width: 100%;
 }
-.blog-img img:hover{
+
+.blog-img img:hover {
     transform: scale(1.5);
     transition: 1s;
 }
-.blog-msg{
+
+.blog-msg {
     padding: 2em 2em;
 }
-.blog-msg p{
+
+.blog-msg p {
     margin-top: 1em;
     text-align: justify;
 }
-.blog h2{
- text-align: justify;
- cursor: pointer;
+
+.blog h2 {
+    text-align: justify;
+    cursor: pointer;
 }
-.blog-footer{
+
+.blog-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2em;
 }
-.author{
+
+.author {
     display: flex;
     gap: 10px;
     align-items: center;
     cursor: pointer;
 }
-.blog-footer .author img{
+
+.blog-footer .author img {
     height: 36px;
     width: 36px;
     border-radius: 50%;
     overflow: hidden;
 }
-.blog:hover h2, .author:hover, .blog-date i{
+
+.blog:hover h2,
+.author:hover,
+.blog-date i {
     color: tomato;
     transition: 1s;
 }
-.pagination{
+
+.pagination {
     display: flex;
     gap: 5px;
     color: #E5E7EB;
 }
 
-.pagination-page{
+.pagination-page {
     height: 36px;
     width: 36px;
     text-align: center;
@@ -114,70 +133,83 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.pagination .active, .pagination-page:hover{
+
+.pagination .active,
+.pagination-page:hover {
     background-color: tomato;
     transition: 1s;
 }
-.blog-sidebar{
+
+.blog-sidebar {
     padding: 3.5em;
 }
-.blog-sidebar h2{
+
+.blog-sidebar h2 {
     color: #F9FAF8;
     margin-bottom: 1em;
 }
 
-.search, .archives, .about, .recent{
+.search,
+.archives,
+.about,
+.recent {
     margin-bottom: 4em;
 }
-.blog-sidebar .archives ul{
+
+.blog-sidebar .archives ul {
     padding-left: 5em;
 }
-.blog-sidebar .archives ul li{
+
+.blog-sidebar .archives ul li {
     color: #F9FAF8;
     cursor: pointer;
     padding: 0.25em 0;
 }
-.blog-sidebar .archives ul li:hover{
+
+.blog-sidebar .archives ul li:hover {
     color: tomato;
 }
 
-.blog-sidebar .about p{
+.blog-sidebar .about p {
     color: #E5E7EB;
     text-align: justify;
 }
 
-.blog-sidebar .post{
+.blog-sidebar .post {
     display: flex;
     gap: 5px;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-bottom: 2em;
     color: #E5E7EB;
 }
-.blog-sidebar .post .post-img{
+
+.blog-sidebar .post .post-img {
     height: 80px;
     width: 100px;
     border-radius: 0.5em;
     overflow: hidden;
 }
-.blog-sidebar .post .post-img img{
+
+.blog-sidebar .post .post-img img {
     height: 100%;
-    /* width: 100%; */
 }
-.blog-sidebar .post h3{
+
+.blog-sidebar .post h3 {
     text-align: justify;
     margin-bottom: 0.25em;
 }
 
-.blog-sidebar .post h3:hover{
+.blog-sidebar .post h3:hover {
     color: tomato;
     cursor: pointer;
 }
 
-.blog-sidebar .tags .tag-list{
+.blog-sidebar .tags .tag-list {
     display: flex;
     flex-wrap: wrap;
 }
-.blog-sidebar .tags .tag{
+
+.blog-sidebar .tags .tag {
     color: #E5E7EB;
     background-color: #1F2937;
     padding: 5px 10px;
@@ -187,18 +219,20 @@
 
 }
 
-.blog-sidebar .tags .tag:hover{
+.blog-sidebar .tags .tag:hover {
     background-color: tomato;
     transition: 1s;
 }
 
 
-@media screen and (max-width:992px){
-    .blog-content{
+@media screen and (max-width:992px) {
+    .blog-content {
         flex-direction: column;
         padding: 1em;
     }
-    .blog-sidebar, .blog-main{
+
+    .blog-sidebar,
+    .blog-main {
         width: 100%;
     }
 }

@@ -10,7 +10,6 @@
 .contact-main {
     width: 50%;
     padding: 1.5em;
-    /* display: flex; */
     text-align: center;
     margin-right: auto;
 }
@@ -107,25 +106,29 @@
     position: relative;
 }
 
-.title h1{
+.title h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
 }
-.title h3{
+
+.title h3 {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-@media screen and (max-width:992px){
-    .contact-main-content{
+@media screen and (max-width:992px) {
+    .contact-main-content {
         flex-direction: column;
         padding: 1em;
     }
-    .contact-sidebar, .contact-main{
+
+    .contact-sidebar,
+    .contact-main {
         width: 100%;
         text-align: center;
     }
+
     .contact-hero img {
         height: 100%;
     }
