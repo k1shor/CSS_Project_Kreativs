@@ -1,0 +1,181 @@
+.contact-main-content {
+    background-color: #E5E7EB;
+    padding: 5em;
+    display: flex;
+    font-size: 26px;
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+
+.title h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.title h3{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.contact-main {
+    width: 50%;
+    padding: 1.5em;
+    display: flex;
+    margin-right: auto;
+}
+
+.contact-sidebar {
+    padding: 1.5em;
+    width: 35%;
+}
+
+.container-right {
+    width: 35%;
+}
+
+.contact-container {
+    padding: 20px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 36px;
+}
+
+.contact-text {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+
+.contact-hero {
+    height: 50vh;
+    background-color: #1F2937;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-hero img {
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    z-index: 2;
+    filter: sepia(2);
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    color: white;
+}
+
+.musician-image {
+    border-radius: 15px;
+}
+
+.welcome {
+    color: black;
+    font-size: 26px;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+.know-more{
+    background-color: #3882F6;
+    color: white;
+    border: solid 1px;
+    border-color: #3882F6;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.know-more:hover {
+    background-color: #144492;
+}
+
+.sign-up-container {
+    align-items: center;
+    padding: 2% 0%;
+}
+
+.sign-up-child-container {
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.sign-up-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 11px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up-button:hover {
+    background-color: #5090f7;
+}
+
+.sign-up-title{
+    color: white;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.sign-up-content {
+    color: white;
+    letter-spacing: 0px;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+
+@media screen and (max-width:992px){
+    .contact-main-content{
+        flex-direction: column;
+        padding: 1em;
+    }
+    .contact-main{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .contact-hero img {
+        height: 100%;
+    }
+    .musician-image {
+        width: 100%;
+    }
+}
