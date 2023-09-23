@@ -1,13 +1,16 @@
 .contact-main-content {
+
     background-color: #030303;
-    padding: 5em;
     display: flex;
+    padding: 3em 5em;
+    width: 90%;
+    margin: 3em auto;
 }
 
 .contact-main {
     width: 50%;
     padding: 1.5em;
-    display: flex;
+    /* display: flex; */
     text-align: center;
     margin-right: auto;
 }
@@ -51,7 +54,7 @@
 
 .contact-sidebar {
     padding: 1.5em;
-    width: 35%;
+    width: 45%;
 }
 
 .container-right {
@@ -68,14 +71,14 @@
 
 .contact-title {
     color: white;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .contact-text {
     color: white;
     text-decoration: none;
     letter-spacing: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-hero {

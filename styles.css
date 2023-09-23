@@ -104,7 +104,7 @@ nav ul {
 
     color: #E5E7EB;
     border: none;
-    padding: 0 1em;
+    padding: 0 1.5em 0 1em;
     height: 100%;
     border-top-right-radius: 5em;
     border-bottom-right-radius: 5em;
@@ -143,9 +143,20 @@ nav ul {
 .menu-icon:hover .hidden-menu{
     transform: translateY(18vh);
 }
-.hidden-menu .search-bar{
-    
+
+
+.icons{
+    filter: invert();
 }
+.login-register-icon{
+    display: flex;
+    gap: 5px;
+    height: 24px;
+}
+.login-register-icon img{
+    height: 100%;
+}
+
 
 @media screen and (max-width: 1160px) {
     .sticky-nav {
