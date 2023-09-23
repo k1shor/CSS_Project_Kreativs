@@ -1,7 +1,9 @@
 .contact-main-content {
     background-color: #030303;
-    padding: 5em;
     display: flex;
+    padding: 3em 5em;
+    width: 90%;
+    margin: 3em auto;
 }
 
 .contact-main {
