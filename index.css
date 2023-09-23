@@ -65,10 +65,10 @@
 
     .quote-content {
         text-align: left;
-        font-size: 24px;
+        font-size: 36px;
         color: #1F2937;
         font-weight: 300;
-        font-style: italic;
+        font-style: light italic;
         line-height: 1.4;
         letter-spacing: 0px;
     }
