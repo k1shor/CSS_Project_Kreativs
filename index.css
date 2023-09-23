@@ -125,6 +125,20 @@
         margin-right: 50px;
     }
 
+    @media (max-width:998px) {
+        .sign-up-button {
+            width: 80px;
+            margin: auto;
+        }
+
+        .sign-up-right-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 5px;
+        }
+    }
+
     @media (max-width: 600px) {
         > h3.title-style {
             font-size: 28px;
@@ -183,13 +197,6 @@
         .sign-up-button {
             width: 80px;
             margin: auto;
-        }
-
-        .sign-up-right-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-left: 5px;
         }
     }
 
