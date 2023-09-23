@@ -1,6 +1,6 @@
 .center-75 {
-        width: 75%;
-        margin: auto;
+    width: 75%;
+    margin: auto;
 }
 
 .contact-parent-container {
@@ -25,12 +25,13 @@
     position: relative;
 }
 
-.title h1{
+.title h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
 }
-.title h3{
+
+.title h3 {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -107,7 +108,7 @@
     margin-bottom: 15px;
 }
 
-.know-more{
+.know-more {
     background-color: #3882F6;
     color: white;
     border: solid 1px;
@@ -124,7 +125,7 @@
 
 .sign-up-container {
     align-items: center;
-    padding-bottom: 2%;
+    padding: 2% 0;
 }
 
 .sign-up-child-container {
@@ -155,7 +156,7 @@
     background-color: #5090f7;
 }
 
-.sign-up-title{
+.sign-up-title {
     color: white;
     letter-spacing: 0px;
     font-size: 20px;
@@ -168,27 +169,30 @@
     margin-right: 50px;
 }
 
-@media (max-width:1340px){
-    .contact-main-content{
+@media (max-width:1340px) {
+    .contact-main-content {
         flex-direction: column;
         padding: 1em;
     }
-    .contact-main{
+
+    .contact-main {
         width: 100%;
         padding: 0;
         text-align: center;
         margin-bottom: 25px;
     }
+
     .contact-hero img {
         height: 100%;
     }
+
     .musician-image {
         width: 100%;
     }
 }
 
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
     .sign-up-title {
         font-size: 16px
     }
@@ -199,10 +203,10 @@
     }
 
     .sign-up-right-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
     }
 
     .sign-up-button {
@@ -211,6 +215,7 @@
 }
 
 @media (max-width:492px) {
-    .sign-up-content {display: none;
+    .sign-up-content {
+        display: none;
     }
 }

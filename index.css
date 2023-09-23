@@ -111,7 +111,7 @@
         background-color: #5090f7;
     }
 
-    .sign-up-title{
+    .sign-up-title {
         color: white;
         letter-spacing: 0px;
         font-size: 20px;
@@ -139,7 +139,7 @@
     }
 
     @media (max-width: 600px) {
-        > h3.title-style {
+        >h3.title-style {
             font-size: 28px;
         }
 
@@ -187,11 +187,11 @@
         .sign-up-left-container {
             padding-right: 5px;
         }
-    
+
         .sign-up-right-container {
             padding-left: 5px;
         }
-    
+
 
         .sign-up-button {
             width: 80px;
@@ -200,7 +200,7 @@
     }
 
     @media (max-width: 492px) {
-        > h3.title-style {
+        >h3.title-style {
             font-size: 22px;
         }
 
@@ -219,4 +219,3 @@
 
     }
 }
- 

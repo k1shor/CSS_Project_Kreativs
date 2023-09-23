@@ -10,11 +10,9 @@ html {
     box-sizing: border-box;
 }
 
-/* LOGIN PAGE */
 
 
 
-/* LOGIN PAGE STYLES END HERE */
 
 /* HEADER */
 
@@ -41,7 +39,7 @@ nav a {
     font-size: 18px;
 }
 
-a.active{
+a.active {
     color: #ff4c4c;
 }
 
@@ -104,7 +102,7 @@ nav ul {
 
     color: #E5E7EB;
     border: none;
-    padding: 0 1em;
+    padding: 0 1.5em 0 1em;
     height: 100%;
     border-top-right-radius: 5em;
     border-bottom-right-radius: 5em;
@@ -120,7 +118,7 @@ nav ul {
     cursor: pointer;
 }
 
-.hidden-menu{
+.hidden-menu {
     width: 100%;
     background-color: #03030350;
     position: absolute;
@@ -132,20 +130,34 @@ nav ul {
     transform: translateY(-100vh);
     transition: 1s all;
 }
-.hidden-menu li{
+
+.hidden-menu li {
     padding: 1.5em 0;
 }
 
-.hidden-menu li:hover{
+.hidden-menu li:hover {
     background-color: #333836;
 }
 
-.menu-icon:hover .hidden-menu{
+.menu-icon:hover .hidden-menu {
     transform: translateY(18vh);
 }
-.hidden-menu .search-bar{
-    
+
+
+.icons {
+    filter: invert();
 }
+
+.login-register-icon {
+    display: flex;
+    gap: 5px;
+    height: 24px;
+}
+
+.login-register-icon img {
+    height: 100%;
+}
+
 
 @media screen and (max-width: 1160px) {
     .sticky-nav {
@@ -161,7 +173,7 @@ nav ul {
     .menu-icon {
         display: block;
     }
-    
+
 }
 
 @media screen and (max-width: 991px) {
@@ -169,7 +181,7 @@ nav ul {
         display: none;
     }
 
-   
+
 
 }
 
@@ -180,10 +192,11 @@ nav ul {
         text-align: center;
         gap: 1em;
     }
-    
+
 }
+
 @media screen and (max-width: 500px) {
-    
+
 
     nav li {
         padding: 0;
@@ -196,16 +209,16 @@ nav ul {
 
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
     .fa-solid {
         margin: 5px;
     }
-}  
+}
 
 /* footer */
-footer{
+footer {
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     background-color: #1f2937;
     color: white;
     text-align: center;
