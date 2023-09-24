@@ -6,19 +6,23 @@
         margin: auto;
     }
 
-    .title-style {
+    .main-title {
         font-size: 36px;
-        font-weight: 900;
         color: #1F2937;
-        line-height: 58px;
+        padding: 2% 0;
+        letter-spacing: 0;
         text-align: center;
     }
 
-    .title-style span {
+    .main-title-style {
+        font-weight: 900;
+    }
+
+    .main-title-style span {
         font-weight: 100;
     }
 
-    .flex-container {
+    .music-section {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -26,22 +30,24 @@
         max-width: 100%;
     }
 
-    .flex-item {
-        flex: 1;
-        padding: 2%;
-        max-width: 210px;
+    .music-container {
+        padding: 0% 2%;
+        max-width: 250px;
         text-align: center;
     }
 
     .music-image-solid {
-        transition: transform 0.3s ease-in-out;
-        height: 120px;
-        width: auto;
+        transition: transform 0.5s ease-in-out;
+        height: 140px;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 15px;
     }
 
-    .flex-content {
+    .music-content {
         max-width: 120px;
         margin: auto;
+        padding-top: 5px;
     }
 
     .music-image-solid:hover {
@@ -78,12 +84,11 @@
         font-weight: bold;
     }
 
-    .sign-up-container {
-        align-items: center;
+    .sign-up-section {
         padding: 2% 0%;
     }
 
-    .sign-up-child-container {
+    .sign-up-container {
         background-color: #3882F6;
         padding: 30px 0px;
         border-radius: 5px;
@@ -143,7 +148,7 @@
             font-size: 28px;
         }
 
-        .flex-item {
+        .music-container {
             max-width: 128px;
         }
 
@@ -152,7 +157,7 @@
             width: auto;
         }
 
-        .flex-content {
+        .music-content {
             font-size: 12px;
         }
 
@@ -168,7 +173,7 @@
             font-size: 10px;
         }
 
-        .sign-up-child-container {
+        .sign-up-container {
             flex-direction: column;
             padding: 18px 0px;
         }
@@ -204,7 +209,7 @@
             font-size: 22px;
         }
 
-        .flex-container {
+        .music-section {
             max-width: 256px;
             margin: auto;
         }
