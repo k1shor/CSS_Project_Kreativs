@@ -85,6 +85,10 @@
     background-color: #0056b3;
 }
 
+p {
+    margin-top: 10px;
+}
+
 .main-content {
     min-height: 90vh;
     overflow: hidden;
