@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musical Contacts</title>
+    <title>Musical Sign up</title>
 
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./contact.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./loginandsignup.css">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
 
 </head>
 
-<body style="background-color: #030303;">
+<body>
     <!-- header section start -->
     <nav>
         <li>
@@ -62,7 +62,7 @@
         <span class="login-register-icon">
             <a href="./login.html" style="margin-right: 10px;"><img src="./assets/icons/signin.svg" alt="login"
                     class="icons"></a>
-            <a href="./signup.html"><img src="./assets/icons/register.svg" alt="register" class="icons"></a>
+            <a href="./signup.html"><img src="./assets/icons/register.svg" alt="register" class="icons active"></a>
         </span>
         <span class="menu-icon">
             <img src="./assets/icons/menu.svg" alt="menu" class="icons">
@@ -71,7 +71,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./blogs.html">Blog</a></li>
-                <li><a href="./contact.html" class="active">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
                 <li>
                     <div class="search-bar">
                         <input type="search">
@@ -85,53 +85,43 @@
     <!-- header section end -->
 
     <!-- main section start -->
-    <div class="contact-hero">
-        <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
-        <div class="title">
-            <h1>Contact</h1>
-            <h3>Home > Contact</h3>
-        </div>
-    </div>
+    <div class="main-content">
 
-    <div class="contact-main-content">
-        <div class="contact-main">
-            <form>
-                <input class="input-container" type="text" placeholder="Your Name" required>
-                <input class="input-container" type="email" placeholder="Your Email" required>
-                <input class="input-container" type="text" placeholder="Subject" required>
-                <textarea class="textarea-container" placeholder="Type your message here"></textarea>
-                <button class="button-style" type="submit">Send message</button>
+
+        <div class="background-image"><img src="./assets/images/signin-image-1.jpg" alt="rythm"></div>
+
+        <div class="container">
+            <h2>Sign Up</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="username">Create a Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Enter your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Create a Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Repeat Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
             </form>
         </div>
-        <div class="contact-sidebar">
-            <div class="container-right">
-                <div class="contact-container">
-                    <h2 class="contact-title">Company address</h2>
-                    <p class="contact-text">Musical, 10001, 5th Avenue, 12202 street, London.</p>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Call Us</h2>
-                    <a href="tel:+1(21) 234 4567" class="contact-text">+1(21) 112 7368</a>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Email Us</h2>
-                    <a href="mailto:example@mail.com" class="contact-text">example@mail.com</a>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Customer Support</h2>
-                    <a href="mailto:info@support.com" class="contact-text">info@support.com</a>
-                </div>
-            </div>
-        </div>
     </div>
-    <iframe src="https://shorturl.at/hoFS0" width="100%" height="450" class="map-frame" allowfullscreen=""
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
     <!-- main section end -->
 
     <!-- footer section start -->
     <footer>
         Copyright &copy; The Kreativs 2023
+
+        <p><a
+                href="https://www.freepik.com/free-vector/beautiful-musical-notes-wave-background-design_1443913.htm#query=music&position=14&from_view=search&track=sph">Image
+                by starline</a> on Freepik</p>
     </footer>
     <!-- footer section end -->
 
