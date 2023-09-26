@@ -2,6 +2,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 3px;
+    /* overflow: hidden; */
 }
 
 * {
@@ -10,58 +11,68 @@ html {
     box-sizing: border-box;
 }
 
-
-
-
-
-/* HEADER */
-
 nav {
     margin: auto;
-    padding: 1em 5em;
+    padding: 2.5em 10em;
     background-color: #1f2937;
-    color: #F9FAF8;
-    display: flex;
-    gap: 3em;
-    align-items: center;
-    position: sticky;
-    top: 0;
-
-}
-
-nav li {
-    list-style: none;
-}
-
-nav a {
     color: #E5E7EB;
-    text-decoration: none;
-    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a.active {
-    color: #ff4c4c;
+nav picture {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
-nav:first-child li:last-child {
-    text-align: right;
-    flex-grow: 6;
-}
-
-.sticky-nav {
-    background-color: #030303;
-    margin: auto;
-    padding: 2.5em 5em;
-    position: sticky;
-    top: 0;
-    z-index: 4;
-
-
+nav picture img {
+    width: 10%;
 }
 
 nav ul {
-    display: flex;
+    flex: 3;
+    text-align: right;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
+
+nav li {
+    position: relative;
+    padding: 5px 10px;
+}
+
+nav h1:hover,
+nav li a:hover,
+nav li:hover {
+    color: #3882F6;
+    cursor: pointer;
+}
+
+nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a.active {
+    color: #3882F6;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+nav>ul li {
+    align-self: flex-end;
+}
+
 
 nav h1 {
     flex: 1;
@@ -69,50 +80,9 @@ nav h1 {
     color: #F9FAF8;
 }
 
-nav ul {
-    flex: 2;
-    justify-content: space-evenly;
-}
-
-.search-bar {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    height: 3em;
-    width: 75%;
-    margin: auto;
-}
-
-.search-bar input {
-    outline: none;
-    padding: 0 1em;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background-color: #19211e;
-    color: #E5E7EB;
-    border: 2px solid #474d4b;
-    border-top-left-radius: 5em;
-    border-bottom-left-radius: 5em;
-}
-
-.search-bar button {
-    background-color: #ff4c4c;
-    border: 2px solid #474d4b;
-
-    color: #E5E7EB;
-    border: none;
-    padding: 0 1.5em 0 1em;
-    height: 100%;
-    border-top-right-radius: 5em;
-    border-bottom-right-radius: 5em;
-}
-
-
-
 .menu-icon {
-    padding: 1em;
-    background-color: #ff4c4c;
+    padding: 1em 1.5em;
+    background-color: #3882F6;
     border-radius: 2em;
     display: none;
     cursor: pointer;
@@ -132,38 +102,57 @@ nav ul {
 }
 
 .hidden-menu li {
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 .hidden-menu li:hover {
-    background-color: #333836;
+    background-color: #03030350;
 }
 
-.menu-icon:hover .hidden-menu {
-    transform: translateY(18vh);
-}
+
 
 
 .icons {
     filter: invert();
 }
 
-.login-register-icon {
+nav figure {
     display: flex;
     gap: 5px;
-    height: 24px;
 }
 
-.login-register-icon img {
-    height: 100%;
+.dropdown {
+    position: absolute;
+    background-color: #333836;
+    left: 0%;
+    top: 100%;
+    display: none;
+    z-index: 5;
 }
 
+.dropdown li {
+    width: 100%;
+    padding: 15px 15px;
+}
+.dropdown li:hover{
+    background-color: #03030350;
+}
 
+nav li:hover .dropdown {
+    display: block;
+}
 
-@media screen and (max-width: 1160px) {
-    .sticky-nav {
-        padding: 2.5em;
-        justify-content: space-evenly;
+main{
+    background-image: url('./assets/images/signin-image-1.jpg');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    color: #333836;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 2.5em 8em;
+        justify-content: space-between;
     }
 
     nav ul,
@@ -175,55 +164,34 @@ nav ul {
         display: block;
     }
 
-    nav a{
+    nav a {
         font-size: 14px;
     }
 
-}
-
-@media screen and (max-width: 991px) {
-    nav li:first-child {
-        display: none;
+    .menu-icon:hover .hidden-menu {
+        transform: translateY(5em);
     }
-
-
 
 }
 
 @media screen and (max-width: 680px) {
-    nav:first-child {
+    nav {
+        padding: 1.5em;
         width: 100%;
         flex-direction: column;
         text-align: center;
-        gap: 1em;
+        gap: 0.5em;
     }
 
-}
-
-@media screen and (max-width: 500px) {
-
-
-    nav li {
-        padding: 0;
+    .menu-icon:hover .hidden-menu {
+        transform: translateY(6em);
     }
 
-    nav:first-child li:last-child {
-        width: 100%;
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width:992px) {
-    .fa-solid {
-        margin: 5px;
-    }
 }
 
 /* footer */
 footer {
     width: 100%;
-    min-height: 80px;
     background-color: #1f2937;
     color: white;
     text-align: center;

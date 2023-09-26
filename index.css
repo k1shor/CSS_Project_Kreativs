@@ -42,6 +42,7 @@
         width: 100%;
         max-width: 100%;
         border-radius: 15px;
+        border: 3px solid #3882F6;
     }
 
     .music-content {
@@ -74,7 +75,7 @@
         font-size: 36px;
         color: #1F2937;
         font-weight: 300;
-        font-style: light italic;
+        font-style: italic;
         line-height: 1.4;
         letter-spacing: 0px;
     }
@@ -171,6 +172,7 @@
 
         .quote-cite {
             font-size: 10px;
+            font-weight: bold;
         }
 
         .sign-up-container {
@@ -223,4 +225,42 @@
         }
 
     }
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 8em 10em;
+    display: flex;
+    color: #F9FAF8
+
+}
+.hero aside{
+    width: 50%;
+    padding-right: 1em;
+}
+.hero picture{
+    width: 50%;
+    padding-left: 1em;
+}
+.hero picture img{
+    width: 100%;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0.25em;
+}
+.hero p{
+    font-size: 18px;
+    columns: #E5E7EB;
+    margin-bottom: 0.25em;
+}
+.hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
 }

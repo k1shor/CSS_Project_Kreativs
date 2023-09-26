@@ -1,42 +1,5 @@
-.blogs-hero {
-    height: 50vh;
-    background-color: #1F2937;
-    position: relative;
-    overflow: hidden;
-}
-
-.blogs-hero img {
-    position: absolute;
-    width: 100%;
-    opacity: 0.6;
-    z-index: 2;
-    filter: sepia(2);
-}
-
-.title {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    z-index: 3;
-    position: relative;
-}
-
-.title h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bolder;
-}
-
-.title h3 {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 .blog-content {
-    background-color: #030303;
     padding: 5em;
     display: flex;
 }
@@ -115,20 +78,21 @@
 .blog:hover h2,
 .author:hover,
 .blog-date i {
-    color: tomato;
+    color: #3882F6;
     transition: 1s;
 }
 
 .pagination {
     display: flex;
     gap: 5px;
-    color: #E5E7EB;
+    color: #1F2937;
 }
 
 .pagination-page {
     height: 36px;
     width: 36px;
     text-align: center;
+    font-weight: bold;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -136,7 +100,7 @@
 
 .pagination .active,
 .pagination-page:hover {
-    background-color: tomato;
+    background-color: #3882F6;
     transition: 1s;
 }
 
@@ -145,7 +109,7 @@
 }
 
 .blog-sidebar h2 {
-    color: #F9FAF8;
+    color: #1F2937;
     margin-bottom: 1em;
 }
 
@@ -154,6 +118,7 @@
 .about,
 .recent {
     margin-bottom: 4em;
+    font-weight: bold;
 }
 
 .blog-sidebar .archives ul {
@@ -161,30 +126,32 @@
 }
 
 .blog-sidebar .archives ul li {
-    color: #F9FAF8;
+    color: #1F2937;
     cursor: pointer;
     padding: 0.25em 0;
 }
 
 .blog-sidebar .archives ul li:hover {
-    color: tomato;
+    color: #3882F6;
+    background-color: #E5E7EB;
 }
 
 .blog-sidebar .about p {
-    color: #E5E7EB;
+    color: #1F2937;
     text-align: justify;
 }
 
 .blog-sidebar .post {
     display: flex;
-    gap: 5px;
+    align-items: stretch;
+    gap: 15px;
     align-items: flex-start;
     margin-bottom: 2em;
-    color: #E5E7EB;
+    color: #1F2937;
 }
 
 .blog-sidebar .post .post-img {
-    height: 80px;
+    height: 50px;
     width: 100px;
     border-radius: 0.5em;
     overflow: hidden;
@@ -199,8 +166,9 @@
     margin-bottom: 0.25em;
 }
 
-.blog-sidebar .post h3:hover {
-    color: tomato;
+.blog-sidebar .post:hover{
+    color: #3882F6;
+    background-color: #E5E7EB;
     cursor: pointer;
 }
 
@@ -220,7 +188,7 @@
 }
 
 .blog-sidebar .tags .tag:hover {
-    background-color: tomato;
+    background-color: #3882F6;
     transition: 1s;
 }
 
@@ -236,3 +204,38 @@
         width: 100%;
     }
 }
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 3em;
+    width: 75%;
+    margin: auto;
+}
+
+.search-bar input {
+    outline: none;
+    padding: 0 1em;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #19211e;
+    color: #E5E7EB;
+    border: 2px solid #474d4b;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+}
+
+.search-bar button {
+    background-color: #3882F6;
+    border: 2px solid #474d4b;
+
+    color: #E5E7EB;
+    border: none;
+    padding: 0 1.5em 0 1em;
+    height: 100%;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+

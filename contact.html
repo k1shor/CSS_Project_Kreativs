@@ -19,121 +19,128 @@
 </head>
 
 <body style="background-color: #030303;">
-    <!-- header section start -->
-    <nav>
-        <li>
-            <p>Have any question ?</p>
-        </li>
-        <li>
-            <span>
-                <img src="./assets/icons/telephone.svg" alt="" class="icons">
-                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
-            </span>
-        </li>
-        <li>
-            <span>
-                <img src="./assets/icons/envelope.svg" alt="" class="icons">
-                <a href="mailto:info@support.com">info@example.com</a>
-            </span>
-        </li>
-        <li class="icons-div">
-            <a href="#"><img src="./assets/icons/facebook.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/twitter.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/instagram.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/linkedin.svg" alt="" class="icons"></a>
+    <header>
+        <nav>
 
-        </li>
-    </nav>
-
-    <nav class="sticky-nav">
-        <a href="./index.html">
-            <h1>Musical</h1>
-        </a>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./blogs.html">Blog</a></li>
-            <li><a href="./contact.html" class="active">Contact</a></li>
-        </ul>
-        <div class="search-bar">
-            <input type="search">
-            <button><img src="./assets/icons/search.svg" alt="" class="icons"></button>
-        </div>
-        <span class="login-register-icon">
-            <a href="./login.html" style="margin-right: 10px;"><img src="./assets/icons/signin.svg" alt="login"
-                    class="icons"></a>
-            <a href="./signup.html"><img src="./assets/icons/register.svg" alt="register" class="icons"></a>
-        </span>
-        <span class="menu-icon">
-            <img src="./assets/icons/menu.svg" alt="menu" class="icons">
-            <ul class="hidden-menu">
-                <li></li>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./blogs.html">Blog</a></li>
-                <li><a href="./contact.html" class="active">Contact</a></li>
+            <picture>
+                <img src="./assets/icons/music.svg" alt="Homepage" class="icons">
+                <h1>Musical</h1>
+            </picture>
+            <span></span>
+            <ul>
+                <li><a href="./index.html">
+                        <figure>
+                            <img src="./assets/icons/home.svg" alt="Home page" class="icons">
+                            <figcaption>Home</figcaption>
+                        </figure>
+                    </a></li>
+                <li><a href="./about.html">
+                        <figure>
+                            <img src="./assets/icons/about.svg" alt="Home page" class="icons">
+                            <figcaption>About Us</figcaption>
+                        </figure>
+                    </a></li>
                 <li>
-                    <div class="search-bar">
-                        <input type="search">
-                        <button><img src="./assets/icons/search.svg" class="icons" alt="search"></button>
-                    </div>
+                    <figure>
+                        <img src="./assets/icons/menu.svg" alt="Home page" class="icons">
+                        <figcaption>More</figcaption>
+                    </figure>
+                    <ul class="dropdown">
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/blog.svg" alt="blogs" class="icons">
+                                <figcaption><a href="./blogs.html">Blogs</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/contact.svg" alt="contact" class="icons">
+                                <figcaption><a href="./contact.html" class="active">Contact</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/signin.svg" alt="login" class="icons">
+                                <figcaption><a href="./login.html">Login</a></figcaption>
+                            </figure>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/register.svg" alt="register" class="icons">
+                                <figcaption><a href="./signup.html">Register</a></figcaption>
+                            </figure>
+                        </li>
+
+                    </ul>
                 </li>
             </ul>
-        </span>
-    </nav>
 
-    <!-- header section end -->
+            <span class="menu-icon">
+                <figure>
+                    <img src="./assets/icons/menu.svg" alt="menu" class="icons">
+                    <figcaption>Menu</figcaption>
+                </figure>
+                <ul class="hidden-menu">
 
-    <!-- main section start -->
-    <div class="contact-hero">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./blogs.html">Blog</a></li>
+                    <li><a href="./contact.html" class="active">Contact</a></li>
+                    <li><a href="./signup.html">Register</a></li>
+                    <li><a href="./login.html">Login</a></li>
+
+                </ul>
+            </span>
+        </nav>
+    </header>
+
+    <!-- <div class="contact-hero">
         <img src="./assets/images/blogs/blogs-hero.jpg" alt="">
         <div class="title">
             <h1>Contact</h1>
             <h3>Home > Contact</h3>
         </div>
-    </div>
-
-    <div class="contact-main-content">
-        <div class="contact-main">
-            <form>
-                <input class="input-container" type="text" placeholder="Your Name" required>
-                <input class="input-container" type="email" placeholder="Your Email" required>
-                <input class="input-container" type="text" placeholder="Subject" required>
-                <textarea class="textarea-container" placeholder="Type your message here"></textarea>
-                <button class="button-style" type="submit">Send message</button>
-            </form>
-        </div>
-        <div class="contact-sidebar">
-            <div class="container-right">
-                <div class="contact-container">
-                    <h2 class="contact-title">Company address</h2>
-                    <p class="contact-text">Musical, 10001, 5th Avenue, 12202 street, London.</p>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Call Us</h2>
-                    <a href="tel:+1(21) 234 4567" class="contact-text">+1(21) 112 7368</a>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Email Us</h2>
-                    <a href="mailto:example@mail.com" class="contact-text">example@mail.com</a>
-                </div>
-                <div class="contact-container">
-                    <h2 class="contact-title">Customer Support</h2>
-                    <a href="mailto:info@support.com" class="contact-text">info@support.com</a>
+    </div> -->
+    <main>
+        <section class="contact-main-content">
+            <div class="contact-main">
+                <form>
+                    <input class="input-container" type="text" placeholder="Your Name" required>
+                    <input class="input-container" type="email" placeholder="Your Email" required>
+                    <input class="input-container" type="text" placeholder="Subject" required>
+                    <textarea class="textarea-container" placeholder="Type your message here"></textarea>
+                    <button class="button-style" type="submit">Send message</button>
+                </form>
+            </div>
+            <div class="contact-sidebar">
+                <div class="container-right">
+                    <div class="contact-container">
+                        <h2 class="contact-title">Company address</h2>
+                        <p class="contact-text">Musical, 10001, 5th Avenue, 12202 street, London.</p>
+                    </div>
+                    <div class="contact-container">
+                        <h2 class="contact-title">Call Us</h2>
+                        <a href="tel:+1(21) 234 4567" class="contact-text">+1(21) 112 7368</a>
+                    </div>
+                    <div class="contact-container">
+                        <h2 class="contact-title">Email Us</h2>
+                        <a href="mailto:example@mail.com" class="contact-text">example@mail.com</a>
+                    </div>
+                    <div class="contact-container">
+                        <h2 class="contact-title">Customer Support</h2>
+                        <a href="mailto:info@support.com" class="contact-text">info@support.com</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <iframe src="https://shorturl.at/hoFS0" width="100%" height="450" class="map-frame" allowfullscreen=""
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    <!-- main section end -->
-
-    <!-- footer section start -->
+        </section>
+        <section>
+            <iframe src="https://shorturl.at/hoFS0" width="100%" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
     <footer>
         Copyright &copy; The Kreativs 2023
     </footer>
-    <!-- footer section end -->
 
 </body>
 

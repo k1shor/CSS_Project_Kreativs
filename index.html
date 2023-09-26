@@ -18,69 +18,91 @@
 </head>
 
 <body>
-    <nav>
-        <li>
-            <p>Have any question ?</p>
-        </li>
-        <li>
-            <span>
-                <img src="./assets/icons/telephone.svg" alt="" class="icons">
-                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
-            </span>
-        </li>
-        <li>
-            <span>
-                <img src="./assets/icons/envelope.svg" alt="" class="icons">
-                <a href="mailto:info@support.com">info@example.com</a>
-            </span>
-        </li>
-        <li class="icons-div">
-            <a href="#"><img src="./assets/icons/facebook.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/twitter.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/instagram.svg" alt="" class="icons"></a>
-            <a href="#"><img src="./assets/icons/linkedin.svg" alt="" class="icons"></a>
+    <header>
+        <nav>
 
-        </li>
-    </nav>
-
-    <nav class="sticky-nav">
-        <a href="./index.html">
-            <h1 class="active">Musical</h1>
-        </a>
-        <ul>
-            <li><a href="./index.html" class="active">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./blogs.html">Blog</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-        <div class="search-bar">
-            <input type="search">
-            <button><img src="./assets/icons/search.svg" alt="" class="icons"></button>
-        </div>
-        <span class="login-register-icon">
-            <a href="./login.html" style="margin-right: 10px;"><img src="./assets/icons/signin.svg" alt="login"
-                    class="icons"></a>
-            <a href="./signup.html"><img src="./assets/icons/register.svg" alt="register" class="icons"></a>
-        </span>
-        <span class="menu-icon">
-            <img src="./assets/icons/menu.svg" alt="menu" class="icons">
-            <ul class="hidden-menu">
-                <li></li>
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./blogs.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+            <picture>
+                <img src="./assets/icons/music.svg" alt="Homepage" class="icons">
+                <h1>Musical</h1>
+            </picture>
+            <span></span>
+            <ul>
+                <li><a href="./index.html">
+                        <figure>
+                            <img src="./assets/icons/home.svg" alt="Home page" class="icons">
+                            <figcaption><a href="./index.html" class="active">Home</a></figcaption>
+                        </figure>
+                    </a></li>
+                <li><a href="./about.html">
+                        <figure>
+                            <img src="./assets/icons/about.svg" alt="Home page" class="icons">
+                            <figcaption><a href="./about.html">About Us</a></figcaption>
+                        </figure>
+                    </a></li>
                 <li>
-                    <div class="search-bar">
-                        <input type="search">
-                        <button><img src="./assets/icons/search.svg" class="icons" alt="search"></button>
-                    </div>
+                    <figure>
+                        <img src="./assets/icons/menu.svg" alt="Home page" class="icons">
+                        <figcaption>More</figcaption>
+                    </figure>
+                    <ul class="dropdown">
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/blog.svg" alt="blogs" class="icons">
+                                <figcaption><a href="./blogs.html">Blogs</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/contact.svg" alt="contact" class="icons">
+                                <figcaption><a href="./contact.html">Contact</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/signin.svg" alt="login" class="icons">
+                                <figcaption><a href="./login.html">Login</a></figcaption>
+                            </figure>
+                        <li>
+                            <figure>
+                                <img src="./assets/icons/register.svg" alt="register" class="icons">
+                                <figcaption><a href="./signup.html">Register</a></figcaption>
+                            </figure>
+                        </li>
+
+                    </ul>
                 </li>
             </ul>
-        </span>
-    </nav>
+
+            <span class="menu-icon">
+                <figure>
+                    <img src="./assets/icons/menu.svg" alt="menu" class="icons">
+                    <figcaption>Menu</figcaption>
+                </figure>
+                <ul class="hidden-menu">
+
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./blogs.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./signup.html">Register</a></li>
+                    <li><a href="./login.html">Login</a></li>
+
+                </ul>
+            </span>
+        </nav>
+    </header>   
 
     <main class="index-main-content">
+        <section class="hero">
+            <aside>
+                <h1>This website is awesome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus, debitis eius recusandae soluta corporis aspernatur aperiam eveniet neque? Nemo, eligendi quibusdam!</p>
+                <button>Sign up</button>
+            </aside>
+            <picture>
+                <img src="./assets/images/indexImages/banner3.jpg" alt="">
+            </picture>
+        </section>
 
         <section class="main-title">
             <h3 class="main-title-style">We feel the <span>rythm</span></h3>
@@ -122,7 +144,7 @@
             
             <section class="quote-container">
                 <blockquote class="quote-container-child">
-                    <p class="quote-content">Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything.</p>
+                    <p class="quote-content"><i>Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything.</i></p>
                     <p class="quote-cite">-Plato</p>
                 </blockquote>
             </section>
