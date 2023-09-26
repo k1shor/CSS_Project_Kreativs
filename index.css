@@ -142,6 +142,20 @@
             align-items: center;
             padding-left: 5px;
         }
+  
+        .hero {
+            flex-direction: column;
+            padding: 8em 5em;
+
+        }
+
+        .hero aside,
+        .hero picture {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 5em;
+
+        }
     }
 
     @media (max-width: 600px) {
@@ -204,6 +218,7 @@
             width: 80px;
             margin: auto;
         }
+
     }
 
     @media (max-width: 492px) {
@@ -227,35 +242,40 @@
     }
 }
 
-.hero{
+.hero {
     background-color: #1F2937;
     padding: 8em 10em;
     display: flex;
     color: #F9FAF8
-
 }
-.hero aside{
+
+.hero aside {
     width: 50%;
     padding-right: 1em;
 }
-.hero picture{
+
+.hero picture {
     width: 50%;
     padding-left: 1em;
 }
-.hero picture img{
+
+.hero picture img {
     width: 100%;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 48px;
     font-weight: bolder;
     margin-bottom: 0.25em;
 }
-.hero p{
+
+.hero p {
     font-size: 18px;
     columns: #E5E7EB;
     margin-bottom: 0.25em;
 }
-.hero button{
+
+.hero button {
     background-color: #3882F6;
     color: #E5E7EB;
     margin-top: 15px;
