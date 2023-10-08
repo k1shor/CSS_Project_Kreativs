@@ -35,8 +35,8 @@
 }
 
 .blog-img img:hover {
-    transform: scale(1.5);
-    transition: 1s;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .blog-msg {
@@ -239,3 +239,12 @@
     border-bottom-right-radius: 5em;
 }
 
+@media screen and (max-width:668px) {
+    .blog-sidebar {
+        display: none;
+    }
+
+    .pagination {
+        justify-content: center;
+    }
+}
