@@ -12,6 +12,12 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     margin: auto;
     padding: 2.5em 10em;
@@ -148,6 +154,7 @@ main{
     background-size: 100% auto;
     background-attachment: fixed;
     color: #333836;
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 1024px) {
