@@ -55,14 +55,14 @@
         transform: scale(1.1);
     }
 
-    .quote-container {
+    .quote {
         border: none;
         text-align: center;
         padding: 2%;
         background-color: #E5E7EB;
     }
 
-    .quote-container-child {
+    .quote-child {
         display: flex;
         flex-direction: column;
         width: 45%;
@@ -176,7 +176,7 @@
             font-size: 12px;
         }
 
-        .quote-container-child {
+        .quote-child {
             width: 80%;
         }
 
@@ -231,7 +231,7 @@
             margin: auto;
         }
 
-        .quote-container-child {
+        .quote-child {
             width: 80%;
         }
 
